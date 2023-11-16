@@ -42,11 +42,19 @@ body {
     width: 100%;
     margin: 5px 0;
     cursor: pointer;
+    border-radius: 8px;
+    
 } 
 
 #next-button {
-    margin: 10px;
-    text-align: left;
+    background-color: rgb(51, 11, 11);
+    color: antiquewhite;
+    width: 100px;
+    padding: 10px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
 }
 .button:hover{
     background-color: rgb(5, 39, 39);
