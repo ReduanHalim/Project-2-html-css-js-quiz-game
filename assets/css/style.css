@@ -57,9 +57,14 @@ body {
     border-radius: 5px;
     display: none;
 }
-.btn:hover{
+
+.btn:hover:not([disabled]){
     background-color: rgb(5, 39, 39);
     color: antiquewhite;
+}
+
+.btn:disabled {
+    cursor: no-drop;
 }
 
 .correct {
