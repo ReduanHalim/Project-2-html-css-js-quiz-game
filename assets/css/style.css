@@ -34,7 +34,7 @@ body {
     color: rgb(19, 22, 22);
 }
 
-.button {
+.btn {
     color: black;
     padding: 6px;
     border: solid black 1px;
@@ -43,10 +43,11 @@ body {
     margin: 5px 0;
     cursor: pointer;
     border-radius: 8px;
+    text-align: left;
     
 } 
 
-#next-button {
+#next-btn {
     background-color: rgb(51, 11, 11);
     color: antiquewhite;
     width: 100px;
@@ -56,7 +57,15 @@ body {
     border-radius: 5px;
     display: none;
 }
-.button:hover{
+.btn:hover{
     background-color: rgb(5, 39, 39);
     color: antiquewhite;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
 }
