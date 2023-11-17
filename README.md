@@ -65,3 +65,9 @@ Random Quiz is a project that tests your knowledge in different subjects with di
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+
+  ## Credits
+
+     - The favicon was taken from [favicon.io](https://favicon.io/)
+     - Font Family was taken from [fonts.google.com](https://fonts.google.com/specimen/Playfair+Display)
