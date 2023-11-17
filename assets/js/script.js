@@ -118,7 +118,7 @@ function showQuestion(){
         button.classList.add("btn");
         answerButtons.appendChild(button);
         if(answer.correct){
-            button.dataset.correct = answer.correct
+            button.dataset.correct = answer.correct;
         }
         button.addEventListener("click", selectAnswer);
     });
@@ -154,7 +154,7 @@ function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "play again";
-    nextButton.style.display = "block"
+    nextButton.style.display = "block";
 }
 
 function handleNextButton(){
@@ -172,6 +172,6 @@ nextButton.addEventListener("click", ()=>{
     }else{
         startQuiz();
     }
-})
+});
 
 startQuiz();
