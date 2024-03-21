@@ -70,4 +70,4 @@ Random Quiz is a project that tests your knowledge in different subjects with di
   ## Credits
 
      - The favicon was taken from [favicon.io](https://favicon.io/)
-     - Font Family was taken from [fonts.google.com](https://fonts.google.com/specimen/Playfair+Display)
+     - Font Family was taken from [fonts.google.com](https://fonts.google.com/specimen/Playfair+Display) 
