@@ -51,6 +51,18 @@ body {
     
 } 
 
+.timer-div{
+    background-color: rgb(201, 160, 160);
+    width: 4.5em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em ;
+    
+
+}
+
 #next-btn {
     background-color: rgb(51, 11, 11);
     color: antiquewhite;

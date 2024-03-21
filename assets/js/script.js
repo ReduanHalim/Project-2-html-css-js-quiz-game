@@ -93,8 +93,9 @@ const questions = [
 
 const questionElement = document.getElementById("question"); 
 const answerButtons = document.getElementById("answer-buttons"); 
-const nextButton = document.getElementById("next-btn"); 
+const nextButton = document.getElementById("next-btn");
 
+let timeLeft = document.querySelector(".time-left");
 let currentQuestionIndex = 0;
 let score = 0;
 
